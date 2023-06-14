@@ -20,6 +20,7 @@ public class Test01_Get {
                 .body("data.id[0]", equalTo(7));
 
         assertEquals(response.statusCode(), 200);
+        
 
     }
 }
